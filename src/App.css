@@ -1,0 +1,45 @@
+/*.App {
+  text-align: center;
+}*/
+.navbar-toggler{
+  width: 34px;
+  height: 35px;
+  background: url("../assets/menu.png");
+  border: none;
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+nav{
+  background: black;
+  position: relative;
+  height: 200px;
+}
+.navbar-brand{
+  color: rgb(209, 198, 177);
+  text-decoration: none;
+  position: relative;
+  left: 10px;
+  top: 5px;
+}
+
+#navbarNav{
+  background: olivedrab;
+  width: 150px;
+  position: absolute;
+  top: 60px;
+  right: 10px;
+}
+#navbarNavHidden{
+  display: none;
+}
+.navbar-nav{
+  list-style-type:none;
+}
+.nav-link{
+  text-decoration: none;
+  color: black;
+}
+.nav-link:hover{
+  color: whitesmoke;
+}
